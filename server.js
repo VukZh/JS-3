@@ -18,6 +18,6 @@ server.listen(port, hostname, () => {
 });
 
 server.on('request', function() {
-    logs.log_on(stringUrl);
-    logs.log_emit();
+    log_on(stringUrl);
+    log_emit();
 });
